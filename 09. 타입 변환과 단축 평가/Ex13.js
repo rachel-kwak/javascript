@@ -5,6 +5,7 @@ function isFalsy(v) {
     return !v;
 }
 
+// 전달받은 인수가 Truthy 값이면 true, Falsy 값이면 false를 반환한다.
 function isTruthy(v) {
     return !!v;
 }
